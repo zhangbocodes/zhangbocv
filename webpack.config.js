@@ -1,6 +1,6 @@
 var webpack = require('webpack'),
-    path = require("path"),
-    OpenBrowserPlugin = require('open-browser-webpack-plugin');
+    path = require("path");
+    //OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
     devtool: 'source-map',
@@ -59,7 +59,7 @@ module.exports = {
                 warnings: false
             }
         }),
-        new OpenBrowserPlugin({ url: 'http://localhost:8888' })
+        //new OpenBrowserPlugin({ url: 'http://localhost:8000' })
     ],
     devServer: {
         contentBase: path.resolve(__dirname, "src"),
