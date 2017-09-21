@@ -3,7 +3,7 @@
 页面切换采用了react-addons-css-transition-group，具有动画效果。
 
 ## 演示地址
-demo: [http://swhzhuster.xin/my-CV](http://swhzhuster.xin/my-CV)
+demo: [http://121.42.171.31:8080/](http://121.42.171.31:8080/)
 
 ## 本地运行
 > npm install
